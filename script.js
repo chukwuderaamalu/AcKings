@@ -23,13 +23,13 @@ function myFunction () {
         else if(computerMove === `paper`){
              result = `Computer chose paper`
              display =  `You chose rock, ${result}.
-           The result is a Win`
+           You lose`
 
         }
         else if (computerMove === `scissors`){
             result = `Computer chose scissors`
             display =  `You chose rock, ${result}.
-           The result is a Loss`
+           You win!`
 
         }
     
@@ -54,7 +54,7 @@ function myFunction2 () {
             if(computerMove === `rock`) {
            result = `Computer chose rock`
            display =  `You chose paper, ${result}.
-           The result is a Loss`
+           You win!`
 
         }
         else if(computerMove === `paper`){
@@ -66,7 +66,7 @@ function myFunction2 () {
         else if (computerMove === `scissors`){
             result = `Computer chose scissors`
             display =  `You chose paper, ${result}.
-           The result is a Win `
+           You lose! `
 
         }
     
@@ -95,13 +95,13 @@ function myFunction3 () {
             if(computerMove === `rock`) {
            result = `Computer chose rock`
            display =  `You chose scissors, ${result}.
-           The result is a Loss`
+           You lose!`
 
         }
         else if(computerMove === `paper`){
              result = `Computer chose paper`
              display =  `You chose scissors, ${result}.
-           The result is a Win`
+           You  Win !`
 
         }
         else if (computerMove === `scissors`){
